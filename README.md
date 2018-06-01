@@ -1,1 +1,0 @@
-# tejkkarani.github.io
