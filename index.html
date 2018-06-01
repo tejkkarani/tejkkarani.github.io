@@ -6,18 +6,6 @@
 clevertap.account.push({"id": “4W9-5K8-7R5Z”});
 clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
 clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agrees to share their IP data
-clevertap.profile.push({
- "Site": {
-   "Name": "Jack Montana", // User's name
-   "Email": “jackmontana@example.com”
- }
-});
-clevertap.event.push("Product Viewed");
-clevertap.event.push("Product Viewed", {
-  "Product name":"Casio Chronograph Watch",
-  "Category":"Mens Accessories",
-  "Price":59.99,
-});
  (function () {
 		 var wzrk = document.createElement('script');
 		 wzrk.type = 'text/javascript';
@@ -27,9 +15,6 @@ clevertap.event.push("Product Viewed", {
 		 s.parentNode.insertBefore(wzrk, s);
   })();
 </script>
-<title>
-Test
-</title>
 </head>
 <body>
 <button>test</button>
